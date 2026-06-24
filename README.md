@@ -21,14 +21,13 @@ myapp/
 
 ![Architecture](Node.js%20App.png)
 
-## Build Docker Image
-
+```bash
 docker build -t myapp .
+```
 
-## Run Container
-
+```bash
 docker run -d -p 3000:3000 myapp
-
-## Access Application
-
+```
+```text
 http://localhost:3000
+```
