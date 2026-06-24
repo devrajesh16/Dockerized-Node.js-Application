@@ -15,6 +15,12 @@ myapp/
 ├── Dockerfile
 ├── app.js
 |── package.json
+
+
+## Architecture Diagram
+
+![Architecture](Node.js%20App.png)
+
 ## Build Docker Image
 
 docker build -t myapp .
