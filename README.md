@@ -13,7 +13,7 @@ A simple Node.js web application containerized using Docker.
 myapp/
 ├── Dockerfile
 ├── app.js
-└── package.json
+|── package.json
 ## Build Docker Image
 
 docker build -t myapp .
