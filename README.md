@@ -21,13 +21,24 @@ myapp/
 
 ![Architecture](Node.js%20App.png)
 
+## Build Docker Image
 ```bash
 docker build -t myapp .
 ```
 
+## Run Docker Container
 ```bash
 docker run -d -p 3000:3000 myapp
 ```
+
+## Access Application
 ```text
 http://localhost:3000
 ```
+
+## Learning Outcomes
+- Built a Node.js application
+- Created a Docker image
+- Ran containers using Docker
+- Exposed application ports
+- Managed application deployment using containers
